@@ -1,0 +1,34 @@
+{
+  "type": "commonjs",
+  "name": "inventory-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "inventory-app"
+  },
+  "author": "Pradeep Yenkuwale",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2",
+    "joi": "^17.6.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "mongoose": "^6.2.8",
+    "mongoose-paginate-v2": "^1.6.3",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.4.1",
+    "uuid": "^8.3.2"
+  }
+}
