@@ -10,5 +10,7 @@ module.exports={
     PRODUCT_UPDATED: 'Products updated successfully!!',
     PRODUCT_DELETED: 'Products Deleted successfully!!',
 
+    USER_FOUND: "user found!!!"
+
 
 }

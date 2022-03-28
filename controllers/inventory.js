@@ -86,6 +86,7 @@ module.exports = {
 
     // Get the product by product id
     return productModel.findOne(query, (error, response) => {
+      console.log("error", error)
       if (error) {
         return res.status(500).send({
           status: STATUS_FALSE,
