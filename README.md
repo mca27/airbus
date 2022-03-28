@@ -47,3 +47,6 @@
 - package.js => this file has all the packages which are being used in the application and configuration for running the applications.
 
 - Other files and directories are auto-generated on application installtion.
+
+# Latest code
+- The latest branch in this is ==> development
